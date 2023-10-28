@@ -1,3 +1,146 @@
-body{
-    background-color: antiquewhite;
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  background-color: #eee;
+  max-width: 100%;
+  margin: 0 auto;
 }
+
+header {
+  text-align: center;
+}
+
+main {
+  margin: 30px 8px;
+  padding: 15px 0;
+  border-radius: 5px;
+  background: #eee;
+}
+
+p {
+  text-align: center;
+  margin: 0 350px;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  background: #fff;
+  padding: 10px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(250, 55, 25m5);
+  align-items: center;
+  text-align: center;
+}
+
+figcaption {
+  display: block;
+  margin: 15px 0 5px 0;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+a {
+  color: #477ca7;
+}
+
+section {
+  display: block;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6rem;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  margin: 16px 0;
+  display: list-item;
+}
+
+
+h3 {
+  text-align: center;
+}
+
+blockquote {
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
