@@ -2,7 +2,6 @@ body {
   font-family: Arial, sans-serif;
   font-size: 16px;
   color: #333;
-  margin: 0;
   background-color: #eee;
   max-width: 100%;
   margin: 0 auto;
@@ -67,20 +66,6 @@ section {
   display: block;
 }
 
-ul {
-  max-width: 550px;
-  margin: 0 auto 50px auto;
-  text-align: left;
-  line-height: 28px;
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-}
-
 li {
   margin: 16px 0;
   display: list-item;
@@ -99,8 +84,6 @@ blockquote {
   align-items: center;
   text-align: center;
   margin: 10px;
-  font-style: italic;
-
   text-align: left;
 }
 
