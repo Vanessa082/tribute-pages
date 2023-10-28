@@ -57,7 +57,6 @@ figcaption {
   background-color: white;
 }
 
-
 a {
   color: #477ca7;
 }
@@ -70,7 +69,6 @@ li {
   margin: 16px 0;
   display: list-item;
 }
-
 
 h3 {
   text-align: center;
@@ -87,14 +85,12 @@ blockquote {
   text-align: left;
 }
 
-
 #main {
   margin: 30px 8px;
   padding: 15px;
   border-radius: 5px;
   background: #eee;
 }
-
 
 img {
   max-width: 100%;
